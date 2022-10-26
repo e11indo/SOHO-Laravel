@@ -1,0 +1,833 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
+}
+
+.soho_container{
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topbar{
+    position:relative;
+    padding-top: 25px;
+    height: 90px;
+}
+
+.topbar .logo{
+    float: left;
+}
+
+.topbar .logo p{
+    margin-bottom: 1px;
+}
+
+.topbar .user, .topbar .tel{
+    float: right;
+}
+
+.tel{
+    margin-top: 25px;
+}
+
+.logo{
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.logo_name{
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+
+.user a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.soho{
+    float: left;
+    display:flex
+}
+
+.soho_navbar{
+    display: none;
+}
+
+.tel span{
+    display: inline-block;
+    font-size: 13px;
+    line-height: 30px;
+    box-sizing: border-box;
+    height: 32px;
+    margin: 0 0 0 9px;
+    padding: 0 11px;
+    color: #222;
+    border: 1px solid #ff9000;
+    border-radius: 22px 22px 0 22px;
+    background: #fff;
+}
+.tel span em {
+    font-size: 18px;
+    font-weight: 500;
+    color: #ff9000;
+    vertical-align: -1px;
+}
+
+.menu{
+    padding-top: 10px;
+    height: 50px;
+    z-index: 100;
+    background-color: white;
+    border-bottom: 1px solid #999;
+}
+
+li{
+    list-style:none;
+}
+
+.soho_menu{
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-right: 40px;
+    color: #333;
+}
+
+.custom_menu a{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #666;
+}
+
+.menu_fixed{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    border-bottom:1px solid black;
+}
+
+.soho_menu a:hover{
+    transition: 0.2s;
+    color: #666;;
+}
+.custom_menu a:hover{
+    transition: 0.2s;
+    color: black;
+}
+
+
+
+/* 푸터 */
+.footer_1{
+    height: 50px;
+}
+.footer-box1{
+    border-bottom: 1px solid #888;
+}
+
+.footer-box1 li{
+    position: relative;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #666;
+    margin-right: 20px;
+}
+
+    /* .footer-box1 li::after{
+        position: absolute;
+        right: -10px;
+        top: 50%;
+        width: 1px;
+        height: 100%;
+        background: #ddd;
+        transform: translateY(-50%);
+        content: "";
+    } */
+
+
+.footer-box2{
+    height: 100px;
+}
+
+.footer-box2 span{
+    position: relative;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+/* .footer-box2 span::after{
+    position: absolute;
+    right: -5px;
+    top: 55%;
+    width: 1px;
+    height: 50%;
+    background: #444;
+    transform: translateY(-50%);
+    content: "";
+} */
+
+.footer-title{
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 1px solid #e8e8e8;
+}
+.footer-desc{
+    padding: 20px 10px;
+}
+.footer-desc h5{
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+
+/* 메인화면 */
+.page1{
+    width: 100%;
+    padding-bottom: 50px;
+}
+.page2{
+    width: 100%;
+    background-color: #f2f5f6;
+    border-bottom: solid 1px #e8e8e8;
+    padding-bottom: 50px;
+}
+
+.carousel-item{
+    height: 100%;
+}
+
+.card{
+    position: relative;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+.card:hover{
+    transition: 0.5s;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.350)!important;
+}
+
+.wh-250{
+    padding-right: 0px;
+    padding-left: 0px;
+    width: calc(25% - 30px);
+    height: 300px;
+}
+.title{
+    padding: 20px 10px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.ml-20{
+    margin-left: 26px;
+}
+
+.card-image{
+    height: 60%;
+}
+
+.card-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.card-des{
+    padding: 10px 10px 40px 10px;
+    overflow-y: hidden;
+    height: 40%;
+    font-size: 15px;
+    font-weight: 500;
+}
+.card-plus{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+
+.background-image{
+    background-image: url(https://cdn.imweb.me/thumbnail/20210405/9608b411d86e8.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+.background-page{
+    background-color: black;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+    text-align: center;
+}
+
+.background-page p{
+    color: white;
+    font-size: 25px;
+}
+
+.card-writing{
+    padding: 20px;
+}
+.plus {
+    float: right;
+    font-size: 12px;
+    color: #8C8C8C;
+    margin: 5px;
+}
+
+
+/* 고객센터 */
+.banner{
+    background: url("/image/고객센터.jpg");
+    background-size: cover;
+    width:100%;
+    height: 250px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.category{
+    height: 60px;
+    border: 1px solid #e5e5e5;
+    background-color: #ffffff;
+    font-size: 21px;
+    letter-spacing: -1.5px;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+}
+
+.category.active{
+    border: 1px solid #ec4a56;
+    background-color: #ec4a56;
+    color: #fff;
+}
+.category.active{
+    border: 1px solid #ec4a56;
+    background-color: #ec4a56;
+}
+.category.active a{
+    color: #fff;
+}
+
+.category.active a:hover{
+    color: #fff;
+}
+.category a:hover{
+    color: #ec4a56;
+}
+
+.question{
+    cursor: pointer;
+    border: 1px solid #e5e5e5;
+    padding: 10px 20px;
+    margin-top: 5px;
+}
+
+.answer{
+    background-color: #f5f7f7;
+    padding: 20px;
+    display: none;
+}
+.answer.active{
+    display: block;
+}
+
+.information-box{
+    display: flex;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    padding: 20px 10px;
+}
+
+.information-box-left, .information-box-right{
+    margin: 20px 80px;
+}
+.information-box-left{
+    margin-top: 40px;
+}
+.information-box-left h3{
+    font-weight: bold;
+}
+.information-box-left p{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.information-box-left{
+    float: left;
+}
+
+.information-box-right{
+    float: right;
+}
+
+.information-box img{
+    width:100%;
+}
+
+
+.consulting-box{
+    height: 50px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#consulting-input{
+    height: 70%;
+    width:100%;
+}
+
+.consulting-box select{
+    height: 70%;
+    width: 100%;
+}
+
+.consulting-submit{
+    background-color: #ff9000;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    width: 150px;
+}
+
+
+/* 문의하기 */
+
+.table-thead{
+    border: 1px solid #e5e5e5;
+    padding: 10px 20px;
+    text-align: center;
+}
+.table-tbody{
+    text-align: center;
+}
+
+.table_board_view{
+    width: 100%;
+    
+}
+
+.show.th{
+    width: 7.5%;
+    text-align: center;
+    background-color: #7388b2;
+    color: white;
+    font-weight: normal;
+    border: 1px solid #e6e6e6;
+    padding: 5px 0px 5px 0px;
+}
+
+.show.td{
+    width: 92.5%;
+    padding: 5px 0px 5px 5px;
+    background-color: #FFFFFF;
+    border: 1px solid #e6e6e6;
+}
+
+.table_row{
+    display: flex;
+}
+
+.delete button{
+    border: 1px solid #e6e6e6; 
+}
+
+.Contact_btn{
+    position: relative;
+}
+.Contact_btn a{
+    position: absolute;
+}
+
+.Contact_btn form{
+    top: 2px;
+    right: 70px;
+    position: absolute;
+}
+
+.mt-3{
+    margin-top: 30px;
+}
+
+.comment_title{
+    margin-top: 40px;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+.comment{
+    position: relative;
+    height: 100px;
+}
+
+.comment_story{
+    height: 100%;
+    width: 90%;
+}
+
+.comment_btn{
+    position: absolute;
+    right: 5px;
+    width: 100px;
+    height: 100%;
+}
+
+.comment_item{
+    padding-bottom: 5px;
+    display: flex;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+/* 페이지별 현재 메뉴 */
+.soho_menu a.active{
+    color: #666;
+}
+.soho-menu a.active .soho-menu-content{
+    background-color: white;
+    font-weight: bold;
+}
+
+/* 소호상품 */
+
+.soho-menu{
+    margin-top: 60px;
+    width: 220px;
+}
+
+.soho-menu-title{
+    background-color: #ff167f;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 10px;
+    border: 1px solid #ddd;
+}
+
+.soho-menu-content{
+    background-color: #f0f1f6;
+    padding: 10px 10px;
+    font-size: 15px;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.soho-menu-content:hover{
+    background-color: white;
+    font-weight: bold;
+}
+
+.soho-content{
+    margin-left: 30px;
+    width: calc(100% - 30px);
+}
+
+.soho-col-6{
+    width:49%;
+}
+
+.soho-content-title{
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #ff167f;
+    color: white;
+    width: 100%;
+}
+
+.soho-content-table table{
+    width: 100%;
+    border-top: 1px dotted #666;
+    border-left: 1px dotted #666;
+}
+
+.soho-content-table table td{
+    border-right: 1px dotted #666;
+    border-bottom: 1px dotted #666;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.soho-content-table .table-title{
+    font-weight: 600;
+    background-color: #f0f1f6;
+}
+
+.soho-content-table .table-pay{
+    font-weight: 600;
+}
+
+.soho-content-table .table-total{
+    font-weight: 600;
+    color: #ff167f;
+}
+
+.soho-content .sales{
+    color: white;
+    position: absolute;
+    top: -30px;
+    height: 30px;
+    padding: 5px 10px;
+    text-align: center;
+    background-color: #ff167f;
+    border-radius: 7px 7px 0 0;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+
+.enterprise table{
+    width: 100%;
+    border-top: 1px dotted #666;
+    border-left: 1px dotted #666;
+}
+
+.enterprise table td{
+    border-right: 1px dotted #666;
+    border-bottom: 1px dotted #666;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.enterprise table .table-title{
+    font-weight: 600;
+    background-color: #f0f1f6;
+}
+
+.enterprise table .table-pay{
+    font-weight: 600;
+}
+
+.enterprise table .table-total{
+    font-weight: 600;
+    color: #c08c5c;
+}
+
+.enterprise-title{
+    background-color: #c08c5c;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 10px;
+    border: 1px solid #ddd;
+}
+
+
+
+.card-writing-content{
+    display: flex;
+}
+
+.card-writing-1{
+    padding: 10px;
+    width: 34%;
+    height: 300px;
+}
+
+.card-writing-2{
+    padding: 10px;
+    width: 65%;
+    margin-left:1%;
+    height: 300px;
+}
+
+
+/* 모바일 전용 웹앱 */
+
+@media(max-width:758px){
+
+    .user a{
+        font-size: 12px;
+        margin-right: 0px;
+    }
+    .user{
+        font-size: 12px;
+        margin-right: 0px;
+    }
+    
+.logo_name{
+    font-size: 25px;
+}
+
+.tel{
+    margin-top: 18px;
+}
+
+.tel span{
+    font-size: 12px;
+}
+
+.tel span em{
+    font-size: 12px;
+}
+
+.soho{
+    display: none;
+}
+
+.soho.active{
+    display: inline;
+    position: absolute;
+    top: 40px;
+    z-index: 100;
+    left: 0;
+    background: white;
+    width: 100%;
+}
+.soho_menu{
+    padding: 5px;
+    font-size: 18px;
+    border-bottom: 1px solid #888;
+    margin-right: 0px;
+}
+
+
+.custom_menu a{
+    font-size: 18px;
+}
+
+.soho_navbar{
+    display: inline;
+    cursor: pointer;
+}
+
+.soho_container{
+    position: relative;
+    width: 100%;
+}
+
+.footer-box1 li{
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-box2{
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer_1{
+    height: auto;
+    padding: 5px;
+}
+
+.footer-box2{
+    padding-left: 5px;
+}
+
+
+.ml-20{
+    margin-left: 0px;
+}
+.wh-250{
+    width: 50%;
+    margin-top: 20px;
+}
+.card-writing-content{
+    display: block;
+}
+.card-writing-1{
+    width: 100%;
+}
+.card-writing-2{
+    margin-top: 20px;
+    width: 100%;
+    margin-left:0px;
+}
+.background-page{
+    padding-top: 25%;
+}
+.background-page p{
+    font-size: 15px;
+}
+.information-box-left, .information-box-right{
+    margin: 0px;
+}
+.category{
+    font-size: 15px;
+}
+.info-box{
+    display: flex;
+}
+.information-box-left{
+    padding: 10px;
+}
+.information-box-left p{
+    font-size: 13px;
+}
+
+
+.col-1{
+    width: 20%;
+    font-size: 15px;
+}
+.col-11, .col-8{
+    width: 50%;
+}
+.col-2{
+    width: 10%;
+}
+
+.soho_container{
+    display: block !important;
+}
+
+
+.soho-menu{
+    width: 100%;
+}
+
+.soho-content{
+    margin-left: 0;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.soho-col-6{
+    width: 100%;
+    margin-top: 50px;
+    padding-right: 0;
+}
+
+.card-plus{
+    position: absolute;
+    bottom: 1px;
+    right: 10px;
+    font-size: 14px;
+}
+
+.soho-banner span{
+    display: none;
+}
+
+#m2m_title{
+    font-size: 25px;
+}
+#m2m_desc h5{
+    font-size: 18px;
+}
+#m2m_desc p{
+    font-size: 13px;
+}
+
+.robot_table p{
+    font-size: 16px;
+}
+
+
+
+
+
+}
